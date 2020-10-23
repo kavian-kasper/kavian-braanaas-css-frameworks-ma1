@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Archivo Narrow", sans-serif;
+  background-color: $gray-400;
+  color: black;
+}
+
+.row {
+  justify-content: space-evenly;
+}
+.block {
+  max-width: 280px;
+  height: 280px;
+  margin: 7px;
+  border-radius: 4%;
+  background-color: $gray-200;
+
+  &--primaryColor {
+    background-color: $primary;
+  }
+
+  &--white {
+    background-color: white;
+    border: $primary 4px solid;
+  }
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: center;
+  background-color: $light;
+  margin-top: 2rem;
+  font-size: 0.8em;
+  color: #8d8d8d;
+  padding: 0.5em;
+
+  @media only screen and (min-width: 540px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

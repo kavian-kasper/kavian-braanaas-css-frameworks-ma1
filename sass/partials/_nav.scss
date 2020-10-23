@@ -1,0 +1,31 @@
+.navbar-brand {
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  color: white;
+}
+
+.navbar-nav {
+  padding: 30px 0;
+}
+.navbar {
+  text-transform: uppercase;
+  background-color: white;
+
+  .nav-item {
+    padding: 10px 0;
+  }
+
+  .nav-link {
+    color: $gray-800;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .nav-link.active {
+    color: $primary !important;
+  }
+}
+
+.navbar-collapse {
+  z-index: 1;
+}
